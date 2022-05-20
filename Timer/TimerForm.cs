@@ -37,5 +37,11 @@ namespace Timer
                 DialogResult = DialogResult.OK;
             }
         }
+
+        private void cancelButton_Click(object sender, EventArgs e)
+        {
+            timer1.Stop();
+            DialogResult = DialogResult.OK;
+        }
     }
 }
